@@ -9,7 +9,7 @@ aantal_verdiepingen = Math.ceil((gewenste_aantal_autos-80)/120);
 
 let antwoord = "Ik heb nog geen idee hoeveel verdiepingen er moeten komen :-( ";
 if (aantal_verdiepingen == 1 ) {
-    antwoord = "Er moet " + aantal_verdiepingen + "verdiepingen op de beganegrond";
+    antwoord = "Er moeten " + aantal_verdiepingen + "verdiepingen op de beganegrond";
 }else if (aantal_verdiepingen > 0) {
     antwoord = "Er moeten " + aantal_verdiepingen + " verdiepingen op de beganegrond";
 }else{
